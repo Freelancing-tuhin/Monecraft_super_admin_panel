@@ -224,9 +224,14 @@ const Router = [
         element: <Dashboard3 />,
       },
       {
-        path: '/Event/list',
+        path: '/Space/list',
         exact: true,
         element: <EcomProductList />,
+      },
+      {
+        path: '/Space/add',
+        exact: true,
+        element: <EcommerceAddProduct />,
       },
       {
         path: '/organizers',

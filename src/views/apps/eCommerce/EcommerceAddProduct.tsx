@@ -41,7 +41,7 @@ const AddProduct = () => {
     // ticketName: '',
     // ticketPrice: 0,
     tickets: [],
-    organizerId: user?._id,
+    organizerId: '6856bfbff0845408eae911e7',
   });
   const navigate = useNavigate();
   const [banner, setBanner] = useState<string | null>(null);

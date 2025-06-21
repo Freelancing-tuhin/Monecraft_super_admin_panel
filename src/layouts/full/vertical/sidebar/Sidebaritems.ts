@@ -45,10 +45,16 @@ const SidebarContent: MenuItem[] = [
         url: '/services',
       },
       {
-        name: 'All Events',
+        name: 'All Spaces',
         icon: 'solar:notebook-linear',
         id: uniqueId(),
-        url: '/Event/list',
+        url: '/Space/list',
+      },
+      {
+        name: 'Add Space',
+        icon: 'solar:notebook-linear',
+        id: uniqueId(),
+        url: '/Space/add',
       },
       {
         name: 'Transactions',
